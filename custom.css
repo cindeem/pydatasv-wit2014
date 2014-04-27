@@ -1,0 +1,53 @@
+#notebook_panel { /* main background */
+    background: #AAA;
+    color: #f6f6f6;
+}
+
+div #notebook { /* centre the content */
+    background: #fff;
+    color: #333;
+    width: 130ex;
+    margin: auto;
+    padding-left: 0em;
+    padding-right: 1em;
+    padding-top: 2ex;
+}
+/* remove big margins around title */
+div.text_cell_render.border-box-sizing.rendered_html {
+    margin: 0;
+    padding: 1; 
+    margin-left: 1ex;
+}
+div.cell.text_cell.border-box-sizing {
+    margin: 0;
+    padding: 0; 
+}
+.rendered_html h1 {
+    margin: 0;
+    padding: 0;
+}
+.rendered_html h2 {
+    margin: 0;
+    padding: 0;
+}
+.rendered_html h3 {
+    margin: 0;
+    padding: 0;
+}
+
+div.cell { /* set cell width to about 80 chars */
+    width: 55em;
+}
+
+div.cell.code_cell { /* area that contains code + output */
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding-top: 1ex;
+}
+/* header colours and fonts */
+h1 { color: #2F6E99;font-family:"Comic Sans MS", cursive, sans-serif }
+h2 { color: #CC4D49; font-family:"Georgia", cursive, sans-serif}
+h3 { color: #549ACC; font-style: italic; font-weight: normal}
+
+
