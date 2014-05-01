@@ -30,9 +30,9 @@ git clone https://github.com/cindeem/pydatasv-wit2014/
 
 Alternatively, you can grab the workbooks through wakari
 
-	https://www.wakari.io/sharing/bundle/rgrrl/pydata_wit2014
+ * https://www.wakari.io/sharing/bundle/rgrrl/pydata_wit2014
 
-	You can also create a wakari.io account, and run the notebooks in wakari
+ * You can also create a wakari.io account, and run the notebooks in wakari
 
 
 #### Start IPython
@@ -48,29 +48,27 @@ ipython notebook
 
 	* create an ipython profile
 
-	```bash
-	ipython profile create pydata
-	```
+		ipython profile create pydata
+	
 	
 	* find location of your profiles
 	
-	```bash
-	ipython locate 
-	```
+		ipython locate 
+	
 	
 	* cd to the profile directory
-		``` 
+	
 		cd /Users/<username>/.ipython/profile_pydata
-		```
+	
 	* make directory to hold our custom css
-		```bash
+	
 		mkdir static
 		mkdir static/custom
-		```
+	
 	* copy custom.css from git repo to new directory
-		```bash
+		
 		cp /path/to/gitrepo/pydatasv-wit2014/custom.css  /<userdir>/.ipython/profile_pydata/static/custom
-		```
+		
 	
 	### Start IPython with the nice profile you just created
 
