@@ -70,7 +70,7 @@ ipython notebook
 		cp /path/to/gitrepo/pydatasv-wit2014/custom.css  /<userdir>/.ipython/profile_pydata/static/custom
 		
 	
-	### Start IPython with the nice profile you just created
+### Start IPython with the nice profile you just created
 
 	```bash
 	ipython notebook --profile pydata
