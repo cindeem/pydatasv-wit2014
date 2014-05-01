@@ -72,8 +72,8 @@ ipython notebook
 	
 ### Start IPython with the nice profile you just created
 
-	```bash
-	ipython notebook --profile pydata
-	```
+```bash
+ipython notebook --profile pydata
+```
 
 
