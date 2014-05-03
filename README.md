@@ -17,3 +17,10 @@ PyData SV Women in Tech Workshop 2014
 |2:15	 | Instagram Intro			|
 |3:00	 | Instagram Exercise		|
 |3:30	 | QA Panel with helpers	|
+
+
+Links to the First Two Lessons on nbviewer
+
+[Lesson Part One](http://nbviewer.ipython.org/github/cindeem/pydatasv-wit2014/blob/master/lessons/Lesson_01_Python_Basics.ipynb)
+
+[Lesson Part Two](http://nbviewer.ipython.org/github/cindeem/pydatasv-wit2014/blob/master/lessons/Lesson_02_MorePython.ipynb)
